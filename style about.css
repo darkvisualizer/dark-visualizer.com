@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    font-family:'Readex Pro', sans-serif;
+}
 .body
 {
     margin: 0;
     padding: 0;
-    font font-family: monospace;
-    
 }
 .header
 {
@@ -46,6 +54,7 @@
     color: white;
     text-align: center;
     font-family:sans-serif;
+    animation: typing 1.5s steps(10) infinite;
     font-size: 25px;
     letter-spacing: 2px;
     padding: 50px;
@@ -61,7 +70,7 @@
     color: #fff;
     margin: 5px;
     margin-right: 40px;
-    padding: 7px 22px;
+    padding: 8px 22px;
     text-decoration: none;
     border: 1px solid Fuchsia;
     border-radius: 25px;}
@@ -69,5 +78,40 @@
     .btn-home:hover{
     background: Fuchsia;
     transition: .5s;
+    }
+    nav{
+    padding: 30px 3%;
+    display: flex;
+    align-items: center;
+    font font-family:'Readex Pro', sans-serif;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    font font-family:'Readex Pro', sans-serif;
+    }
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+    font font-family:'Readex Pro', sans-serif;
+    
+    }
+    .nav ul li a{
+        color: #fff;
+        text-decoration:none;
+        font-size: 18px;
+        font font-family:'Readex Pro', sans-serif;
+         }
+    .logo{
+        width:150px;
+        height:43px;
+        cursor: pointer;
+    
+    }
+    .menu icon{
+        width: 35px;
+        cursor: pointer;
+        margin: 0 20px;
     }
     

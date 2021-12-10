@@ -1,9 +1,23 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500&display=swap');
 
 *
 {
   margin: 0;
   padding: 0;
+    box-sizing: border-box;
+    font-family:'Readex Pro', sans-serif;
+    color: white;
+    text-decoration: none;
+    
+}
+.body
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 .header
 {
@@ -70,9 +84,55 @@
 {
     background: Fuchsia;
     transition: .5s;
+
 }
-.btn-comment:hover
-{
-    background: Fuchsia;
-    transition: .5s;
+
+nav{
+    padding: 30px 3%;
+    display: flex;
+    align-items: center;
 }
+nav ul{
+    flex: 1;
+    text-align: right;
+    }
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+    
+    }
+    .nav ul li a{
+        color: #fff;
+        text-decoration:none;
+        font-size: 18px;
+         }
+    .logo{
+        width:150px;
+        height:43px;
+        cursor: pointer;
+    
+    }
+    .menu icon{
+        width: 35px;
+        cursor: pointer;
+        margin: 0 20px;
+    }
+.text anime .static text
+    {
+        color: white;
+       
+    
+    
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
